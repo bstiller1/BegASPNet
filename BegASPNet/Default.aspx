@@ -5,23 +5,24 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <style type="text/css">
-        .auto-style1 {
-            color: #FF0000;
-        }
-    </style>
+    <link href="Styles/Styles.css" rel="stylesheet" />
+  
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-    
-        <h1>Hi there visitor and welcome to Planet Wrox.</h1>
-        <p>
-            We&#39;re glad you&#39;re<span class="auto-style1"> paying a visit</span> to <a href="http://www.PlanetWrox.com" title="Planet Wrox" target="_blank">www.PlanetWrox.com</a>, the coolest music community site on the internet.</p>
-        <p>
-            Feel free to have a look around, there are lots of interesting <strong>reviews and concert</strong> pictures to be found here.</p>
-    
-    </div>
+        <div id="PageWrapper">
+            <header>Header goes here</header>
+            <nav>Menu goes here</nav>
+            <section id="MainContent">
+                <h1>Hi there visitor and welcome to Planet Wrox.</h1>
+                <p>We&#39;re glad you&#39;re <span class="auto-style1">paying a visit </span>to <a href="http://www.planetwrox.com">www.PlanetWrox.com</a>, the coolest music
+                     community site on the internet</p>
+                <p>Feel free to have a <a href="Default.aspx">look around</a>, there are lots of interesting <strong>reviews and concert pictures</strong>
+                    to be found here. </p>
+            </section>
+            <aside id="SideBar">SideBar goes here</aside>
+            <footer>Footer foes here</footer>
+        </div>
     </form>
 </body>
 </html>
