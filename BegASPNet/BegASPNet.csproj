@@ -60,6 +60,14 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Code\BasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Code\Calculator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Content Include="Default.aspx" />
+    <Content Include="MasterPages\Frontend.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -69,7 +77,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CssDemo.aspx" />
-    <Content Include="Default.aspx" />
     <Content Include="Demos\CalculatorDemo.aspx" />
     <Content Include="Demos\CodeBehind.aspx" />
     <Content Include="Demos\Containers.aspx" />
@@ -144,11 +151,16 @@
     <Compile Include="Demos\TableDemo.aspx.designer.cs">
       <DependentUpon>TableDemo.aspx</DependentUpon>
     </Compile>
+    <Compile Include="MasterPages\Frontend.Master.cs">
+      <DependentUpon>Frontend.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\Frontend.Master.designer.cs">
+      <DependentUpon>Frontend.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Code\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

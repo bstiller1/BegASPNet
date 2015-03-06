@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Frontend.master.cs" Inherits="BegASPNet.MasterPages.Frontend" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../Styles/Styles.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="PageWrapper">
+            <header>Header goes here</header>
+            <nav>Menu goes here</nav>
+            <section id="MainContent">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            </section>
+            <aside id="SideBar">SideBar goes here</aside>
+            <footer>Footer goes here</footer>
+        </div>
+    </form>
+</body>
+</html>

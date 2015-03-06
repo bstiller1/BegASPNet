@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace BegASPNet
 {
-    public partial class Default : BasePage
+    public partial class _TestPage : BasePage
     {
         protected void Page_Load(object sender, EventArgs e)
         {
