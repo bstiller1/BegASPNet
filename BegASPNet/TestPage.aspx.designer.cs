@@ -7,7 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-
-
-public partial class _TestPage {
+namespace BegASPNet {
+    
+    
+    public partial class TestPage {
+    }
 }
