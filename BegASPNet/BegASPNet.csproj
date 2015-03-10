@@ -60,11 +60,39 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Code\BasePage.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="App_Code\Calculator.cs">
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demos\NewTestPage.aspx.cs">
+      <DependentUpon>NewTestPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Demos\NewTestPage.aspx.designer.cs">
+      <DependentUpon>NewTestPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="TestPage.aspx.cs">
       <DependentUpon>TestPage.aspx</DependentUpon>
@@ -73,12 +101,16 @@
     <Compile Include="TestPage.aspx.designer.cs">
       <DependentUpon>TestPage.aspx</DependentUpon>
     </Compile>
+    <Content Include="About.aspx" />
     <Content Include="App_Themes\DarkGrey\DarkGrey.css" />
     <Content Include="App_Themes\DarkGrey\Images\Header.jpg" />
     <Content Include="App_Themes\Monochrome\Images\Header.jpg" />
     <Content Include="App_Themes\Monochrome\Images\MenuBackground.jpg" />
     <Content Include="App_Themes\Monochrome\Images\Sidebar.jpg" />
+    <Content Include="Contact.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="Demos\NewTestPage.aspx" />
+    <Content Include="Login.aspx" />
     <Content Include="MasterPages\Frontend.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -86,6 +118,7 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="Web.sitemap" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="CssDemo.aspx" />
@@ -103,6 +136,7 @@
   <ItemGroup>
     <Compile Include="CssDemo.aspx.cs">
       <DependentUpon>CssDemo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="CssDemo.aspx.designer.cs">
       <DependentUpon>CssDemo.aspx</DependentUpon>

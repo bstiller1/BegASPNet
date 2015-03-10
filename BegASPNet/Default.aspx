@@ -9,3 +9,6 @@
                 <p class="Introduction">Feel free to have a<a href="Default.aspx" title="Home"> look around</a>, there are lots of interesting <strong>reviews and concert pictures</strong>
                     to be found here. </p>
 </asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="footer" runat="server">
+  
+</asp:Content>

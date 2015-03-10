@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Test" Language="C#" MasterPageFile="~/MasterPages/Frontend.Master" AutoEventWireup="true" CodeBehind="TestPage.aspx.cs" Inherits="BegASPNet.TestPage" %>
+﻿<%@ Page Title="Test" Language="C#" MasterPageFile="~/MasterPages/Frontend.Master" AutoEventWireup="true" CodeBehind="NewTestPage.aspx.cs" Inherits="BegASPNet.NewTestPage" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
         .auto-style2 {
@@ -16,4 +16,3 @@
     <asp:TextBox ID="TextBox4" runat="server" Height="60px" TextMode="MultiLine" Width="359px"></asp:TextBox>
     
 </asp:Content>
-

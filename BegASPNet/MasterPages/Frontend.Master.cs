@@ -11,6 +11,7 @@ namespace BegASPNet.MasterPages
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+        
             if(!Page.IsPostBack)
             { 
             string selectedTheme = Page.Theme;
@@ -18,7 +19,7 @@ namespace BegASPNet.MasterPages
             if (preferredTheme != null)
             {
                 selectedTheme = preferredTheme.Value;
-                Label1.Text = selectedTheme;
+
             }
             if (!string.IsNullOrEmpty(selectedTheme))
             {
