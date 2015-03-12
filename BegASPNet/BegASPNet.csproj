@@ -80,6 +80,20 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Controls\ContactForm.ascx.cs">
+      <DependentUpon>ContactForm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ContactForm.ascx.designer.cs">
+      <DependentUpon>ContactForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Demos\Email.aspx.cs">
+      <DependentUpon>Email.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Demos\Email.aspx.designer.cs">
+      <DependentUpon>Email.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Demos\NewTestPage.aspx.cs">
       <DependentUpon>NewTestPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -108,10 +122,13 @@
     <Content Include="App_Themes\Monochrome\Images\MenuBackground.jpg" />
     <Content Include="App_Themes\Monochrome\Images\Sidebar.jpg" />
     <Content Include="Contact.aspx" />
+    <Content Include="Controls\ContactForm.ascx" />
     <Content Include="Default.aspx" />
+    <Content Include="Demos\Email.aspx" />
     <Content Include="Demos\NewTestPage.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="MasterPages\Frontend.Master" />
+    <None Include="Properties\PublishProfiles\TriosDevelopers.com.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -131,7 +148,9 @@
     <Content Include="Demos\TableDemo.aspx" />
     <Content Include="App_Themes\Monochrome\Monochrome.css" />
     <Content Include="TestPage.aspx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CssDemo.aspx.cs">

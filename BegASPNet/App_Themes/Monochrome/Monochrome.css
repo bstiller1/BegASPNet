@@ -208,3 +208,6 @@ footer
   font-style: italic;
   color: #3e3e3e;
 }
+.ErrorMessage{
+    color:#FF0000;
+}
